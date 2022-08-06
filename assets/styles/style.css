@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins&family=Quicksand:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Mochiy+Pop+One&display=swap');
+body {
+	font-family: 'Mochiy Pop One','Poppins', sans-serif;
+   margin: 0;
+   padding: 0;
+
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+h2 {
+   color: #71DFE7;
+   font-size: large;
+}
+ 
+h3 {
+   color: #71DFE7;
+}
+
+main p, ol {
+   font-family: 'Kdam Thmor Pro';
+}
+
+.footerbawah {
+   font-style: 'Mochiy Pop One';
+   background-color: #71DFE7;
+   padding: 3px;
+   color: white;
+   text-align: center;
+}
+
+nav a {
+   font-size: 18px;
+   text-decoration: none; /* menghilangkan garis bawah */
+}
+
+nav a:hover {
+   font-weight: bold;
+}
+
+.profile header {
+   text-align: center;
+}
+
+.profile img {
+   width: 200px;
+}
+
+.card {
+   padding: 5px 20px;
+   margin-top: 20px;
+}
+
+
+
+/* jumbotron untuk header */
+.jumbotron {
+   margin-left: -10px;
+   margin-right: -10px;
+   font-size: 20px;
+   text-align: center;
+   color: white;
+}
+
+.jumbotron h1 {
+   background-image: url('header.jpg');
+   padding: 270px;
+   background-size: cover;
+   margin-top: 40px;
+   margin-bottom: 0;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+nav li {
+   /* Membuat teks list block menjadi seperti baris */
+   display: inline;
+   list-style-type: none;
+}
+
+nav {
+   background-color: #71DFE7;
+   padding: 5px;
+   /* arti posisi sticky membuat membuat navigasi dapat melekat pada jendela browser*/
+   /*  (layaknya fixed position) tetapi posisi awalnya tetap menempati posisi di mana ia seharusnya berada (layaknya relative position) */
+   position: sticky;
+   top: 0;
+}
+
+header  {
+   display: inline;
+}
+
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
+
+main {
+   padding: 10px;
+   /* elemen dibawah membuat content dan aside dianggap ada sehingga footer mengarah ke bawah */
+   overflow: auto;
+}
+
+#content1 {
+   width: 100%;
+   margin: 0;
+   overflow: auto;
+}
+
+#sejarah h2 {
+   text-align: center;
+}
+
+#sejarah p {
+   text-align: center;
+   font-size: 15px;   
+}
+
+p span {
+   font-size: 20px;
+}
+
+#kerjasama h2 {
+   text-align: center;
+}
+
+#kerjasama p {
+   text-align: center;
+   font-size: 15px;   
+}
+
+.featured-image1 {
+   width: 50%;
+   max-height: 400px;
+   /* Kedua properti dibawah membuat gambar yang ditampilkan */
+   /* dapat menyesuaikan lebar dan panjang dengan mempertahankan kualitas rasio aslinya. Tetapi untuk menyesuaikannya terdapat area gambar yang terpotong atau tidak ditampilkan, tetapi tampilan gambar akan tetap proporsional */
+   object-fit: contain;
+   object-position: center;
+   float: left;
+}
+.featured-image3 {
+   width: 50%;
+   max-height: 500px;
+   /* Kedua properti dibawah membuat gambar yang ditampilkan */
+   /* dapat menyesuaikan lebar dan panjang dengan mempertahankan kualitas rasio aslinya. Tetapi untuk menyesuaikannya terdapat area gambar yang terpotong atau tidak ditampilkan, tetapi tampilan gambar akan tetap proporsional */
+   object-fit: contain;
+   object-position: center;
+   float: left;
+}
+
+.featured-image4 {
+   width: 20%;
+   max-height: 100px;
+   /* Kedua properti dibawah membuat gambar yang ditampilkan */
+   /* dapat menyesuaikan lebar dan panjang dengan mempertahankan kualitas rasio aslinya. Tetapi untuk menyesuaikannya terdapat area gambar yang terpotong atau tidak ditampilkan, tetapi tampilan gambar akan tetap proporsional */
+   object-fit: contain;
+   object-position: center;
+   float: left;
+}
+
+#content2 {
+   width: 100%;
+   margin: 0;
+   padding-top: 50px;
+   overflow: auto;
+
+}
+
+#visimisi p {
+   font-size: 15px;
+}
+
+.featured-image2 {
+   width: 50%;
+   max-height: 500px;
+   /* Kedua properti dibawah membuat gambar yang ditampilkan */
+   /* dapat menyesuaikan lebar dan panjang dengan mempertahankan kualitas rasio aslinya. Tetapi untuk menyesuaikannya terdapat area gambar yang terpotong atau tidak ditampilkan, tetapi tampilan gambar akan tetap proporsional */
+   object-fit: contain;
+   object-position: center;
+   float: right;
+}
+
+.paragrap {
+   text-align: center;
+   font-size: 15px;
+   width: 60%;
+   float: left;
+}
+
+.box {
+   background-size: cover;
+   color: white;
+   text-align: center;
+   padding: 1px 5px;
+   background-color:black;
+   border-radius: 20px;
+   width: 30%;
+   margin: 5px;
+   display:inline-table;
+}
+
+.boxp {
+   padding-bottom: 10px;
+   padding-left: 70px;
+}
+
+.boxp h2:hover {
+   font-size: 18px;
+}
+
+img.boximg {
+   width: 100%;
+   height: 250px;
+   padding-top: 5px;
+   border-radius: 20px 20px 0 0;
+   background-size: cover;
+}
+
+
+
+#about {
+   background-image: url('../image/background-room.jpg');
+   background-size: cover;
+   background-position: center;
+   text-align: center;
+   margin: 0;
+   color: white;
+   padding: 0 50px;
+   margin-top: 20px;
+   border-radius: 10px;
+   overflow: auto;
+}
+
+.btn {
+   color: black;
+   border: 1px solid black;
+   border-radius: 10px;
+   padding: 10px 10px;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+.btn:hover {
+   color: #71DFE7;
+   border: 2px solid #71DFE7;
+   margin-left: 10px;
+}
+
+#info {
+   background-color: black;
+}
+footer .layar-dalam {
+   color: white;
+   margin: 0;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding-top: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 30px;
+ }
+ footer .layar-dalam div {
+   color: white;
+ }
+
+/* css profile */
+#myprofile {
+   margin-left:-10px;
+   margin-right: -10px;
+   margin-bottom: -10px;
+	height: 120vh;
+	background: url(../image/bg1.jpg) no-repeat center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.profile-card {
+	width: 400px;
+	text-align: center;
+	border-radius: 10px;
+	overflow:  hidden;
+}
+
+.card-header {
+	background: #2c3a47;
+	padding: 60px 40px;
+}
+
+.pic {
+	display: inline-block;
+	padding: 8px;
+	background: linear-gradient(130deg, #71DFE7, #e66767);
+	margin: auto;
+	border-radius: 50%;
+	background-size: 200% 200%;
+	animation: animated-gradiient 2s linear infinite;
+}
+
+@keyframes animated-gradiient {
+	25%{
+		background-position: left bottom;
+	}
+	50% {
+		background-position: right bottom;
+	}
+	75% {
+		background-position: right top;
+	}
+	100% {
+		background-position: left top;
+	}
+}
+
+.pic img {
+	display: block;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.name {
+	color: #f2f2f2;
+	font-size: 22px;
+	font-weight: 600;
+	margin: 10px;
+}
+
+.desc {
+	font-size: 15px;
+   padding-bottom: 5px;
+	color: #71DFE7;
+}
+
+.sm {
+	display: flex;
+	justify-content: center;
+	margin:  20px 0;
+}
+
+.sm a {
+	color:  #f2f2f2;
+	width: 56px;
+	font-size: 22px;
+	transition: .3s linear;
+   text-decoration: none;
+}
+
+.sm a:hover {
+	color: #e66767;
+}
+
+.contact-btn {
+   font-size: 12px;
+	display: inline-block;
+	padding: 12px 30px;
+	color: #71DFE7;
+	border: 2px solid #74b9ff;
+	border-radius: 20px;
+	margin-top: 16px;
+	transition: .3s linear;
+   text-decoration: none;
+}
+
+.contact-btn:hover {
+	background: #71DFE7;
+	color: #f2f2f2;
+}
+
+.card-footer {
+	background: #f4f4f4;
+	padding: 60px 10px;
+}
+
+.numbers {
+	display: flex;
+	align-items: center;
+}
+
+.item {
+	flex: 1;
+	text-transform: uppercase;
+	font-size: 8px;
+	color: #e66767;
+	
+}
+
+.item span{
+	display: block;
+	color: #2c3a47;
+	font-size: 20px;
+}
+
+.border {
+	width: 1px;
+	height: 30px;
+	background: #bbb;
+}
+
+
+
+
+/* Dengan menerapkan nilai border-box pada properti  */
+/* box-sizing, kita dapat menentukan dimensi kotak dengan tepat, tanpa dipengaruhi oleh padding dan border */
+* {
+   box-sizing: border-box;
+}
+
+
+/* coding oposional */
+header h2 {
+   padding-top: 20px;
+}
+
+
+/* Rule yang dituliskan dalam block @media di bawah akan diterapkan pada device yang memiliki ukuran viewport di bawah 992px */
+@media screen and (max-width: 800px) {
+   #content1, #content2, #content3 {
+      width: 100%;
+      padding: 0;
+   }
+
+   #sejarah p, #visimisi p, #kerjasama p, #penghargaan p, #about p, main ol, .boxp p{
+      font-size: 10px;
+   }
+
+   p span {
+      font-size: 15px;
+   }
+
+   h2 {
+      font-size: 15px;
+   }
+
+   h4, nav a, footer {
+      font-size: 12px;
+   }
+
+   .boxp {
+      margin: 0;
+      padding: 0;
+   }
+
+   .featured-image1, .featured-image2, .featured-image3 {
+      width: 100%;
+   }
+
+   #visimisi {
+      text-align: center;
+   }
+
+   #about {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 90%;
+      margin-top: 10px;
+      margin-left: 5%;
+      font-size: 15px;
+   }
+
+   .card-padding {
+      padding: 0 10px;
+   }
+   .rincian-left {
+      float: right;
+      height: 300px;
+
+   }
+   
+   .box {
+      color: white;
+      text-align: center;
+      border-radius: 20px;
+      width: 80%;
+      height: 200px;
+      margin: 5px 10%;
+   }
+
+   img.boximg {
+      width: 100%;
+      padding-top: 5px;
+      border-radius: 20px 20px 0 0;
+      background-image: cover;
+   }
+
+   .jumbotron h1 {
+      background-image: url('header.jpg');
+      padding: 50px;
+      background-size: cover;
+      margin-top: 50px;
+      background-repeat: no-repeat;
+      background-position: center;
+   }
+
+   .layar-dalam {
+      width: 100%;
+   }
+
+   .layar-dalam p  {
+      font-size: 13px;
+   }
+ }
+  /* Rule yang dituliskan dalam block @media di bawah akan diterapkan pada device yang memiliki ukuran viewport di bawah 600px */
+ /* @media screen and (max-width: 600px) {
+    ........
+ }   */
